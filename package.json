@@ -1,6 +1,6 @@
 {
   "name": "gulp-marko",
-  "version": "0.1.1",
+  "version": "2.0.0",
   "description": "Compile marko templates to html",
   "main": "index.js",
   "author": "Vivian Gledhill <vivian.gledhill@gmail.com>",
@@ -16,7 +16,7 @@
     "url": "https://github.com/viviangledhill/gulp-marko.git"
   },
   "dependencies": {
-    "gulp-util": "^3.0.4",
+    "gulp-util": "^3.3.0",
     "marko": "^2.0.10",
     "marko-widgets": "^3",
     "node.extend": "^1.1.3",
