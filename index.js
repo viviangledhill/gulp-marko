@@ -39,7 +39,7 @@ module.exports = function(options) {
 
 		optimizer.configure(options.optimizer);
 
-		var template = marko.load(file.path);
+		var template = marko.load(file.path, { writeToDisk: false });
 
 		// options.renderOptions || {}
 		template.render(options.renderParams, function (err, out) {
